@@ -1,5 +1,4 @@
-package main
-
+package day1
 import (
 	"bufio"
 	"fmt"
@@ -8,15 +7,11 @@ import (
 	"strconv"
 )
 
-const (
-	dayOneFileInput = "./day1/inputpuzzleone.txt"
-)
-
-func puzzleOne() {
+func PuzzleOne(fileLocation string) {
 	// This will be our result
 	var increases = 0
 
-	file, err := os.Open(dayOneFileInput)
+	file, err := os.Open(fileLocation)
 	if err != nil {
 		log.Fatal("failed to load file", err)
 	}
