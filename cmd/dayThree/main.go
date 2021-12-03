@@ -2,19 +2,19 @@ package main
 
 import (
 	"github.com/matthewjamesboyle/adventOfCode2021/common"
-	"github.com/matthewjamesboyle/adventOfCode2021/day2"
+	"github.com/matthewjamesboyle/adventOfCode2021/day3"
 	"log"
 )
 
 func main() {
-	const inputFile = "./day2/input.txt"
+	const inputFile = "./day3/input.txt"
 
 	input, err := common.ReadFileToMemory(inputFile)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	res, err := day2.PuzzleTwo(input)
+	res, err := day3.PuzzleOne(input)
 	if err != nil {
 		log.Fatal(err)
 	}
