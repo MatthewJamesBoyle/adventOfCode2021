@@ -14,7 +14,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	res, err := day3.PuzzleOne(input)
+	res, err := day3.PuzzleTwo(input)
 	if err != nil {
 		log.Fatal(err)
 	}
