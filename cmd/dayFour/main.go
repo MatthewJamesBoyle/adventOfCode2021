@@ -20,7 +20,8 @@ func main() {
 		b91, b92, b93, b94, b95, b96, b97, b98, b99, b100,
 	})
 
-	score := day4.CallNumbers(boards, toCall)
+	//score := day4.CallNumbers(boards, toCall)
 
+	score := day4.FindLastWinner(boards, toCall)
 	fmt.Println(score)
 }

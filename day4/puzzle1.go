@@ -3,7 +3,8 @@ package day4
 import "log"
 
 type Board struct {
-	Tiles []Tile
+	Tiles     []Tile
+	completed bool
 }
 
 type Tile struct {
